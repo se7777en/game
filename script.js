@@ -2,7 +2,7 @@ let counter = 0;
 const dino = document.getElementById("dino");
 const cactus = document.getElementById("cactus");
 
-document.addEventListener("click", function (event) {
+document.addEventListener("hashchange", function (event) {
     jump();
    /* counter++;
     if(counter < 0) {counter = 0;}
