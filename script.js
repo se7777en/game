@@ -35,4 +35,4 @@ if(cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140){
     console.log(counter);*/
 }
 },10);
-
+///
