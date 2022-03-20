@@ -4,9 +4,9 @@ const cactus = document.getElementById("cactus");
 
 document.addEventListener("keydown", function (event) {
     jump();
-    counter++;
+   /* counter++;
     if(counter < 0) {counter = 0;}
-    console.log(counter);
+    console.log(counter);*/
     
 });
 
@@ -30,9 +30,9 @@ let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left
 
 if(cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140){
     alert("GAME OVER!!");
-    counter --;
+   /* counter --;
     if(counter < 0) {counter = 0;}
-    console.log(counter);
+    console.log(counter);*/
 }
 },10);
 
